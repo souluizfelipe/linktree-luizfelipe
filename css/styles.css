@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3f3f3;
+    font-family: 'Open Sans', sans-serif;
+    color: #33322E;
+}
+
+.profile-info {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.profile-photo {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.main-title {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-subtitle {
+    font-size: 1.25rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    max-width: 200px;
+    margin: 20px auto;
+    list-style: none;
+}
+
+.social-icons {
+    width: 2rem;
+    color: #33322E;
+}
